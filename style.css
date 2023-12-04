@@ -1,0 +1,60 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    background-color: #313030;
+  }
+  /* UI nav for website is sticky and sticks to the top */
+  .btn-group button {
+    position:-webkit-sticky;
+    position:sticky;
+    top: 0 ;
+    background-color: #050505; /* black background */
+    border: 1px solid red; /* red border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+  .you-are-here {
+    background-color: #00cc00; /* green background */
+  
+    }
+  h1 {
+    color:#fa0000
+  }
+  p {
+    color:white
+  }
+  h3{
+    color:#fa0000
+  }
+  h2{
+    color:#fa0000
+  }
+  /* flex containers used for employees in the history section */
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 20px;
+    color:white ;
+  }
+  section{
+    color:white;
+    font-size: 15px;
+  }
+  
+  .btn-products {
+    background-color: #050505; /* black background */
+    border: 1px solid red; /* red border */
+    color: white; /* White text */
+    padding: 16px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+  .btn-products:active {
+    background-color: lime;
+  }
